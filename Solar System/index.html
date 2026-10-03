@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema Solar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <div id="scene"></div>
+
+    <div id="music-player">
+
+        <button id="music-button">▶</button>
+
+        <div id="music-info">
+            <span>INTERSTELLAR</span>
+            <small>Soundtrack</small>
+        </div>
+
+    </div>
+
+    <audio id="interstellar" loop>
+        <source src="assets/interstellar.mp3" type="audio/mpeg"">
+    </audio>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
